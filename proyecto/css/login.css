@@ -1,0 +1,27 @@
+div{
+
+    width: 300px; height: 200px;
+    position: relative;
+    top: 300px; left: 800px;
+}
+
+
+th{
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+
+}
+input.input{
+   background-color: rgb(0, 204, 255);
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+input.input:focus{
+    background-color: rgb(0, 204, 255);
+    border-color: rgb(0, 204, 255);
+    background-color: red;
+   
+ }
+

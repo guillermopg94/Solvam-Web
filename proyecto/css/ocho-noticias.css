@@ -1,0 +1,53 @@
+div#ocho-noticias div { 
+    
+    width: 250px;  height: 310px;
+    
+    float: left;
+   position: relative;
+   top: 0px; left: 0px;
+    
+ margin-bottom: 70px;
+ margin-left: 10px;
+}
+
+a.detalles{
+    display: block;
+    width: 40px; height: 40px;
+    background-image: url(../img/gallery-item-icons.png);
+    background-position: 40px 0px;
+    position: relative;
+    top: -50px; left: 200px;
+    z-index: 1;
+    background-color: grey;
+}
+a.detalles:hover{ 
+    background-color: rgb(0, 204, 255);
+}
+/*Detalles de las 8 noticias*/
+div#ocho-noticias div div.titulo{ /*Esto es el apartado para el titulo de las fotos*/
+    width: 250px;  height: 130px;
+   position: relative;
+   top: -40px; left: -10px;
+    background-color:   rgb(71, 113, 124);
+}
+div#ocho-noticias div div.titulo h1{
+    color:  aliceblue;
+    font-family: 'Oswald', sans-serif;
+}
+div#ocho-noticias div div.titulo h2{
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+}
+ img.cuadros{ /*esto afecta a las imagenes de las 8 noticias*/
+    display: block;
+    width:250px ; height:238px ;
+  
+}
+a.lupa:hover p img.cuadros{ /*No se porque esto no me funciona*/
+    display: block;
+    width:350px ; height:338px ;
+    position: relative;
+    top: 0px; left: 0px;
+    z-index: 1;
+}

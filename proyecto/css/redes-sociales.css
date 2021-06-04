@@ -1,0 +1,82 @@
+
+/*esto son los iconos de las redes sociales*/
+div.pie-peque span.rs1{
+    display: block;
+    width: 46px; height: 47px;
+    background-image: url(../img/social-icons.png);
+    position: relative;
+    top: 70px; left: 0px;
+}
+div.pie-peque span.rs2{
+    display: block;
+    width: 48px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -50px 0.5px;
+    position: relative;
+    top: 23px; left: 50px;
+}
+div.pie-peque span.rs3{
+    display: block;
+    width: 50px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -100px  0.5px;
+    position: relative;
+    top: -24px; left: 100px;
+}
+div.pie-peque span.rs4{
+    display: block;
+    width: 52px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -150px 0.5px;
+    position: relative;
+    top: -72px; left: 146px;
+}
+div.pie-peque span.rs5{
+    display: block;
+    width: 54px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -200px 0.5px ;
+    position: relative;
+    top: -119px; left: 193px;
+}
+div.pie-peque span.rs1:hover{
+    display: block;
+    width: 46px; height: 47px;
+    background-image: url(../img/social-icons.png);
+    background-position: 0px 47px;
+    position: relative;
+    top: 70px; left: 0px;
+}
+div.pie-peque span.rs2:hover{
+    display: block;
+    width: 48px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -50px 47px;
+    position: relative;
+    top: 23px; left: 50px;
+}
+div.pie-peque span.rs3:hover{
+    display: block;
+    width: 50px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -100px  47px;
+    position: relative;
+    top: -24px; left: 100px;
+}
+div.pie-peque span.rs4:hover{
+    display: block;
+    width: 52px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -150px 47px;
+    position: relative;
+    top: -72px; left: 146px;
+}
+div.pie-peque span.rs5:hover{
+    display: block;
+    width: 54px; height: 48px;
+    background-image: url(../img/social-icons.png);
+    background-position: -200px 47px ;
+    position: relative;
+    top: -119px; left: 193px;
+}
+

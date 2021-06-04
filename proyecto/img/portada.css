@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div#contenedor{ 
+    width: 1172px; ; height: 1700px;
+    margin: auto;
+}
+div#encabezado{  /*Aqui estan el menu y el logo*/
+    
+    width: 1100px;  height: 90px;
+    position: relative;
+    top: 0px; left: 15px;
+}
+div#logo{ /*Zona del logo*/
+    
+    width: 470px;  height: 60px;
+    position: relative;
+    top: 10px; left: 0px;
+    float: left;
+}
+img.logo{
+    height: 60px;
+    position: relative;
+    top: 10px; left: 0px;
+}
+a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium;
+}
+
+ul { /*limpio las lista*/
+    list-style-type: none;
+}
+p.clear{ /*limpiar flotamiento*/
+    clear: both;
+}
+div#contenido{ /*aqui es donde esta destacado y ocho noticias*/
+    
+    width: 1130px; height: 1040px;
+   
+
+}
+div#noticia-destacada h1{
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px blue;
+}
+div#noticia-destacada h2{
+    font-family: 'Oswald', sans-serif;
+   
+}
+div#noticia-destacada h3{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+div#destacado{ /*Esta es la primera parte del contenido*/
+    
+    width: 1130px; ; height: 360px;
+    position: relative;
+    top: 0px; left: 0px;
+}
+div#noticia-destacada{ /*esto esta dentro de destacado*/
+    
+    width: 360px; ; height: 360px;
+    position: absolute;
+    top: 0px; left: 740px;
+    float: right;
+}
+div#ocho-noticias{ /*Esta es la segunda parte del contenido*/
+
+    width: 1130px;  height: 700px;
+    position: relative;
+    top: 0px; left: 0px;
+}
+
+div#descripcion h1{ /*esto afecta al texto de detalles*/
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+    font-style: oblique;
+}
+div#descripcion p{ /*esto afecta al texto de detalles*/
+    font-family: 'Oswald', sans-serif;
+    
+}
+div#descripcion a{ /*esto afecta al texto de detalles*/
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+    
+}
+/*todas estas afectan al texto de contacto*/
+div.texto h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+}
+div.texto p{
+    font-family: 'Oswald', sans-serif;
+   
+}
+div.datos-contacto h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+   
+}
+div.datos-contacto p{
+    font-family: 'Oswald', sans-serif;
+   
+}
+div.datos-contacto a{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+   
+}
+div.donde-estamos{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+}

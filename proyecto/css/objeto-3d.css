@@ -1,0 +1,43 @@
+div#contenedor-galeria3d{
+    width: 600px;height: 180px;
+    perspective: 800px;
+    position: relative;
+    
+}
+div#galeria3d{ 
+    margin: 0 auto;
+   
+    width: 400px; ; height: 100%;
+    position: relative;
+    top: 60px; left: 0px;
+    transform-style: preserve-3d;
+}
+div#galeria3d:hover {
+    transform: rotatex(360deg);
+    transition: all 4s linear 0s;
+}
+div#galeria3d div {
+    width: 100%; height: 100%;
+    position: absolute;
+}
+
+div#galeria3d div img {
+    width: 500px; height: 180px;
+}
+
+div#galeria3d div:nth-child(1) {
+    
+    transform: rotatex(90deg) translatez(90px);
+}
+div#galeria3d div:nth-child(2) {
+    
+    transform: rotatex(180deg) translatez(90px);
+}
+div#galeria3d div:nth-child(3) {
+   
+    transform: rotatex(270deg) translatez(90px);
+}
+div#galeria3d div:nth-child(4) {
+    
+    transform: rotatex(0deg) translatez(90px);
+}

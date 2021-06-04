@@ -1,0 +1,31 @@
+div#imagen{
+   
+    width: 570px; height: 770px;
+    position: absolute;
+    top: 20px; left: 20px;
+}
+div#imagen img{
+    width: 570px; height: 770px;
+    position: absolute;
+    top: 0px; left: 0px;
+}
+div#descripcion{
+   
+    width: 500px; height: 770px;
+    position: absolute;
+    top: 20px; left: 620px;
+}
+div#descripcion a{
+    position: relative;
+    top: 0px; left: 420px;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div#descripcion span{
+    display: block;
+    width: 20px; height: 20px;
+    background-image: url(../img/);
+    background-repeat: none;
+}
+
+

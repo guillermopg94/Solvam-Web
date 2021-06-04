@@ -1,0 +1,192 @@
+/* menu*/
+div#menu{  /*caja menu*/
+   
+    width: 740px;  height: 70px;
+    position: relative;
+    top: -50px; left: 10px;
+    float: right;
+    border: 1px solid rgb(0, 204, 255) ;
+ 
+}
+
+div#menu li{
+    float: left;
+    padding: 1px;
+    background-color: white;
+}
+div#menu li a{
+    display: block;
+    text-decoration: none;
+    font-style: none;
+    padding-top: 15px;
+    font-style: none;
+    padding-left: 20px;
+    background-color: white;
+    width:100px ; height: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 204, 255);
+}
+div#menu li a:hover{
+    background-color: rgb(58, 132, 201);
+    color: white;
+}
+div#menu li a p{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+/* acaba menu*/
+/* ------------ */
+/* ------------ */
+/* empieza submenu*/
+div#submenu1{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 0px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu1 {
+    display: block;
+}
+div#submenu1 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    
+}
+div#submenu1 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white;
+
+}
+div#submenu2{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 123px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu2 {
+    display: block;
+}
+div#submenu2 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    
+    }
+div#submenu2 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white;
+  
+}
+div#submenu3{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 245px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu3 {
+    display: block;
+}
+div#submenu3 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    
+}
+div#submenu3 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white;
+    
+        }
+div#submenu4{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 368px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu4 {
+    display: block;
+    
+}
+div#submenu4 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    
+}
+div#submenu4 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white; 
+}
+div#submenu5{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 490px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu5 {
+    display: block;
+   
+}
+div#submenu5 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+   
+}
+div#submenu5 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white;
+    
+}
+div#submenu6{
+    display: none;
+    width: 100px;
+    position: absolute;
+    top: 65px; left: 610px;
+    z-index: 1;
+}
+div#menu li:hover div#submenu6 {
+    display: block;
+}
+div#submenu6 li a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
+    
+}
+div#submenu6 li:hover a{
+    float: left;
+    width: 150px; height: 50px;
+    display:block;
+    background-color:  rgb(58, 132, 201);
+    color: white;
+    
+}

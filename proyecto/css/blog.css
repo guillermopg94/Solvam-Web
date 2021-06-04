@@ -1,0 +1,98 @@
+div#contenido-blog{
+    width: 1200px; height: 1500px;
+ position: relative;
+ top: 0px; left: 0px;
+
+  
+}
+
+div#contenido-blog div.caja-articulo{
+   
+    width: 640px; height: 260px;
+    margin-bottom: 10px;
+
+
+}
+
+div#contenido-blog div.img-blog{
+        width: 210px; height: 230px;
+     border: 5px solid grey;
+     overflow: hidden;
+   float: left;
+       border: 1px solid black;
+      
+    }
+    div#contenido-blog div div.img-blog img{
+        width: 210px; height: 230px;
+        
+    }
+    
+
+    div#contenido-blog div div.texto{
+        width: 380px; height: 200px;
+    
+       float: right;
+    }
+    div#contenido-blog div div.texto h1{
+        font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px red;
+    }
+
+    div#contenido-blog div div.texto p{
+        font-family: 'Oswald', sans-serif;
+    color: grey;
+    }
+
+    div#contenido-blog div div.agregados{
+        width: 380px; height: 30px;
+        
+        position: relative;
+        top: -240px; left: 250px;
+    }
+    div#contenido-blog div div.agregados p {
+     float: left;
+     padding: 5px;
+     font-family: 'Oswald', sans-serif;
+     color: rgb(0, 204, 255);
+     font-size: small;
+    }
+    
+
+     div.derecha{
+        
+    width: 380px; height: 300px;
+    position: absolute;
+    top: 0px; left: 650px;
+display: block;
+}
+div.derecha h1{
+    color: rgb(0, 204, 255);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px red;
+
+}
+div.derecha a{
+    display: block;
+    color: rgb(0, 204, 255);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    
+  padding-left: 10px;
+   
+
+}
+div.derecha-mas{
+    
+width: 380px; height: 100px;
+position: absolute;
+top: 420px; left: 650px;
+}
+div.derecha-mas h1{
+    color: rgb(0, 204, 255);
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px red;
+   
+    
+    }
+
+       
